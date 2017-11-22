@@ -1,0 +1,76 @@
+body {
+	background-color: #EED153; 
+	font-family: 'Comic Sans MS','Helvetica', 'Arial', sans-serif;
+	text-align : center;
+	width: 90%;
+	margin: auto;
+}
+button{
+	font-family: 'Comic Sans MS','Helvetica', 'Arial', sans-serif;
+	color:white;
+}
+
+h1 {
+  color: white;
+  margin: 0px 0px 0px 0px ;
+  padding:0px;
+  }
+  
+  a{
+	   margin: 0px 0px 0px 0px ;
+	   padding:0px 0px 0px 0px ;
+  }
+  
+#boutonDemarrage{
+		 
+		background-color: red;
+		margin: 0px 0px 0px 0px ;
+		border-right :3px solid #A91101;
+		border-bottom :3px solid #A91101;
+		border-radius:20px;
+		cursor:pointer;
+}
+#boutonSecond{
+		visibility:hidden;
+		background-color: olive;
+		margin: 10px 10px 10px 10px ; 
+		border-right :3px solid #798933;
+		border-bottom :3px solid #798933;
+		border-radius:20px;
+		cursor:pointer;
+		
+}
+
+#boutonTrois{
+		visibility:hidden;
+		background-color: blue;
+		margin: 10px 10px 10px 10px ;
+		border-right :3px solid #002FA7;
+		border-bottom :3px solid #002FA7;
+		border-radius:20px;
+		cursor:pointer;
+}
+
+#fond{
+	display:flex;
+	justify-content: space-between;
+	}
+#fondG{
+	display:flex;
+	flex-direction:column;
+	}
+#fondD{
+	display:flex;
+	flex-direction:column;
+	
+	}
+#fondGauche{
+	
+	visibility:hidden;
+}
+
+#fondDroite{
+	
+	visibility:hidden;
+	
+}
